@@ -1,0 +1,9 @@
+H.Vermulen - #e2888f
+	   - rgba(226,136,143,255)
+Background Pink - #f7e6ec
+		- rgba(247,230,236,255)
+Cake outline - #322c36
+	     - rgba(50,44,54,255)
+
+
+
