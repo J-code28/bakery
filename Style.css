@@ -71,6 +71,7 @@ nav{
 }
 #about_p {
     font-size: 1.8rem;
+    font-family: 'Quicksand', sans-serif;
 
 }
 
@@ -106,8 +107,8 @@ nav{
 .g_img:hover{
     z-index:100;
     width: 26rem;
-    position: ;
-    border: 2px solid white;
+    position: relative;
+   
     border-radius: 10px;
 }
 
@@ -132,6 +133,7 @@ img {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  margin-top: -20px;
 }
 
 .mySlides img{
