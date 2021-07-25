@@ -53,7 +53,9 @@ nav{
 
 /* about us */
 #about_us{
-    height: 100vh;
+    height: 50vh;
+    margin-top: 300px;
+    padding-top: 1rem;
 }
 #img_p{
     width: 80vw;
@@ -79,6 +81,8 @@ nav{
     margin-left: auto;
     font-family: 'Zen Loop', cursive;
     text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* Gallery */
@@ -101,7 +105,8 @@ nav{
 }
 .g_img:hover{
     z-index:100;
-    width: 25rem;
+    width: 26rem;
+    position: ;
     border: 2px solid white;
     border-radius: 10px;
 }
