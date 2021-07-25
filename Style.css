@@ -1,3 +1,23 @@
+/* html{
+    background: linear-gradient(45deg,
+        rgb(247, 230, 236),rgb(241,230,247),rgba(247,230,236),rgb(236,247,230),rgb(230,247,241),rgb(228,172,192), rgb(230,245,247));
+      /* #a19d9c, #d8b9c5, #cfecfa); */
+        background-size: 500% 500%;
+        animation: gradient 5s ease infinite;
+        scroll-behavior: smooth;
+    }
+@keyframes gradient{
+    0%{
+        background-position:  0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+} */
+
 *, html{
     margin: 0;
     padding: 0;
@@ -9,7 +29,7 @@ body::-webkit-scrollbar {
     display: none;
   }
 /* body */
-body{
+ body{
     background-color: #e2888f;
 }
 
@@ -47,8 +67,8 @@ nav{
     font-size: 4rem;
 }
 .nav-link:hover{
-    color: #f7e6ec ;
-    border-bottom: solid 1px #f7e6ec;
+    color: purple ;
+    border-bottom: solid 1px purple;
 }
 
 /* about us */
@@ -132,6 +152,25 @@ img {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  transition: fade;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 .mySlides img{
@@ -139,6 +178,7 @@ img {
   display: block;
   margin: auto;
   border-radius: 20px;
+  border-color: black;
 }
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
@@ -146,7 +186,7 @@ img {
 }
 
 /* Next & previous buttons */
-.prev,
+/* .prev,
 .next {
   cursor: pointer;
   position: absolute;
@@ -154,7 +194,7 @@ img {
   width: auto;
   padding: 160px;
   margin-top: -200px;
-  color: black;
+  color: pink;
   font-weight: bold;
   font-size: 50px;
   border-radius: 0 3px 3px 0;
@@ -163,15 +203,15 @@ img {
 }
 
 /* Position the "next button" to the right */
-.next {
+/* .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}
+} */
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-color: white;
+color: purple;
 }
 
 /* Number text (1/3 etc) */
