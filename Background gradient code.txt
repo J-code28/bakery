@@ -1,0 +1,19 @@
+html{
+    background: linear-gradient(45deg,
+        rgba(161,157,156,0.4),rgba(216,185,197,0.4),rgba(207,236,250,0.4));
+      /* #a19d9c, #d8b9c5, #cfecfa); */
+        background-size: 500% 500%;
+        animation: gradient 0.2s ease infinite;
+        scroll-behavior: smooth;
+    }
+@keyframes gradient{
+    0%{
+        background-position:  0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%; 
+    }
+}

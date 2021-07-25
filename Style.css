@@ -1,7 +1,13 @@
-html{
+*, html{
     margin: 0;
     padding: 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    scroll-behavior: smooth;
 }
+body::-webkit-scrollbar {
+    display: none;
+  }
 /* body */
 body{
     background-color: #e2888f;
@@ -46,9 +52,24 @@ nav{
 }
 
 /* about us */
+#about_us{
+    height: 100vh;
+}
+#img_p{
+    width: 80vw;
+    margin: auto;
 
-#about_us > h1 , p {
-    text-align: center;
+}
+#Hannah{
+    border-radius:100%;
+    width: 20rem;
+    shape-outside:circle(50%);
+    shape-margin: 1rem;
+    float: left;
+}
+#about_p {
+    font-size: 1.8rem;
+
 }
 
 #about_us > h1{
@@ -57,10 +78,30 @@ nav{
     margin-right: auto;
     margin-left: auto;
     font-family: 'Zen Loop', cursive;
+    text-align: center;
 }
 
-#about_us > p{
-    margin-right: auto;
-    margin-left: auto;
-    width: 80vw;
+/* Gallery */
+
+#gallery{
+    height: 100vh;
+    width: 50vw;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding-right: 80px;
+    padding-top: 50px;
+}
+
+.g_img{
+    width: 13rem;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.g_img:hover{
+    z-index:100;
+    width: 25rem;
+    border: 2px solid white;
+    border-radius: 10px;
 }
