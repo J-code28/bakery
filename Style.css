@@ -267,3 +267,21 @@ color: purple;
     text-align: center;
     margin-top: -2rem;
 }
+
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 376px) {
+    .nav-link{
+        font-size: 2rem;
+        margin: 0 1rem;
+    }
+    .mySlides img {
+        width: 20rem;
+        display: block;
+        margin: auto;
+        border-radius: 20px;
+        border-color: black;
+    }
+}
