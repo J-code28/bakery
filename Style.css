@@ -107,7 +107,7 @@ nav{
 .g_img:hover{
     z-index:100;
     width: 26rem;
-    position: relative;
+    position:relative;
     border-radius: 10px;
 }
 
@@ -196,4 +196,35 @@ color: white;
   content: "";
   display: table;
   clear: both;
+}
+/* CONTACT */
+#Contact{
+    margin-top: 400px;
+    
+    
+}
+
+#con_details{
+    background-color: black;
+    color: white;
+    height: 40vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#getInTouch{
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 2rem;
+}
+#upper{
+    grid-row: 1;
+    grid-column: 1/6;
+    text-align: center;
+}
+#lower{
+    grid-row: 2;
+    grid-column: 1/6;
+    text-align: center;
+    margin-top: -2rem;
 }
