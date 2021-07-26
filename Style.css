@@ -293,8 +293,8 @@ color: purple;
     }
     .g_img{
         width: 4rem;
-        border: 2px solid white;
-        border-radius: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
     }
     #gallery{
         height: 100vh;
