@@ -145,7 +145,7 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
-
+  padding-right: 50px;
 }
 
 
@@ -239,6 +239,7 @@ color: purple;
 /* CONTACT */
 #Contact{
     margin-top: 400px;
+    
 
 
 }
