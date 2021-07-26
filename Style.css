@@ -145,7 +145,7 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
-  padding-right: 50px;
+
 }
 
 
@@ -238,8 +238,8 @@ color: purple;
 }
 /* CONTACT */
 #Contact{
-    margin-top: 400px;
-    
+    position: relative;
+    margin-top: 1500px;
 
 
 }
@@ -251,6 +251,7 @@ color: purple;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
 }
 
 #getInTouch{
