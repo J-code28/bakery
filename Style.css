@@ -121,15 +121,17 @@ nav{
 
 .g_img{
     width: 13rem;
-    border: 2px solid white;
-    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 .g_img:hover{
     z-index:100;
-    width: 26rem;
-    position:relative;
-    border-radius: 10px;
+    transform: scale(2);
+    transition: transform .3s;
+    border-radius: 5px;
 }
+
+
 
 
 
