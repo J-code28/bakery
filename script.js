@@ -44,7 +44,4 @@ function handleClick(element){
 }
 
 
-var image = doc.getElementsByClassName("g_img");
-image.addEventListener("ontouchend", function(){
-  image.style.transform = "scale(1)";
-});
+
