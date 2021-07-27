@@ -39,9 +39,9 @@ function showSlides() {
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 
-// function handleClick(element){
-//   element.style.transform = "scale(1)";
-// }
+function handleClick(element){
+  element.style.transform = "scale(1)";
+}
 
 // var images = getElementsByClassName("g_img");
 
