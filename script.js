@@ -38,3 +38,13 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
+
+function handleClick(element){
+  element.style.transform = "scale(1)";
+}
+
+
+var image = doc.getElementsByClassName("g_img");
+image.addEventListener("ontouchend", function(){
+  image.style.transform = "scale(1)";
+});
