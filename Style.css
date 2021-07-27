@@ -2,10 +2,10 @@
     background: linear-gradient(45deg,
         rgb(247, 230, 236),rgb(241,230,247),rgba(247,230,236),rgb(236,247,230),rgb(230,247,241),rgb(228,172,192), rgb(230,245,247));
       /* #a19d9c, #d8b9c5, #cfecfa); */
-        background-size: 500% 500%;
+        /* background-size: 500% 500%;
         animation: gradient 5s ease infinite;
         scroll-behavior: smooth;
-    }
+    } */
 @keyframes gradient{
     0%{
         background-position:  0% 50%;
@@ -136,34 +136,90 @@ nav{
 
 
 /* slide show */
-* {
+#SlideSHOW {
   box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
 }
 
-img {
+SlideSHOW img {
   vertical-align: middle;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
-.container {
+.container1 {
+  position: relative;
+
+}
+.container2 {
+  position: relative;
+
+}
+.container3 {
   position: relative;
 
 }
 
 
 /* Hide the images by default */
-.mySlides {
+.mySlides1 {
   display: none;
   transition: fade;
+  grid-column: 1;
 }
 
 /* Fading animation */
-.fade {
+.fade1 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+
+}
+
+.container2 {
+  position: relative;
+
+}
+
+
+/* Hide the images by default */
+.mySlides2 {
+  display: none;
+  transition: fade;
+  grid-column: 2;
+}
+
+/* Fading animation */
+.fade2 {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 4s;
   animation-name: fade;
   animation-duration: 4s;
 }
+
+.container3 {
+  position: relative;
+
+}
+
+
+/* Hide the images by default */
+.mySlides3 {
+  display: none;
+  transition: fade;
+  grid-column: 2;
+}
+
+/* Fading animation */
+.fade3 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
 
 @-webkit-keyframes fade {
   from {opacity: .4}
@@ -175,11 +231,27 @@ img {
   to {opacity: 1}
 }
 
-.mySlides img{
-  width: 30rem;
+.mySlidesfade1 img{
+  width: 26rem;
   display: block;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.mySlidesfade2 img{
+  width: 26rem;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.mySlidesfade3 img{
+  width: 26rem;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
   border-color: black;
 }
 /* Add a pointer when hovering over the thumbnail images */
@@ -297,13 +369,7 @@ color: purple;
         border-radius: 5px;
     }
     .g_img:hover{
-        transform: scale(6);
-        display:block;
-     top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-
+        transform: scale(2);
     }
     #gallery{
         height: 100vh;
