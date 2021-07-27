@@ -298,6 +298,12 @@ color: purple;
     }
     .g_img:hover{
         transform: scale(6);
+        display:block;
+     top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+
     }
     #gallery{
         height: 100vh;
