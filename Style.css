@@ -74,7 +74,7 @@ nav{
 /* about us */
 #about_us{
     height: 50vh;
-    margin-top: 300px;
+    margin-top: 150px;
     padding-top: 1rem;
 }
 #img_p{
@@ -357,7 +357,7 @@ color: purple;
         width: 18rem;
     }
     .mySlides img {
-        width: 20rem;
+        width: 22.7rem;
         display: block;
         margin: auto;
         border-radius: 20px;
@@ -371,14 +371,18 @@ color: purple;
     .g_img:hover{
         transform: scale(3);
     }
+
+    .a:hover{
+      margin-left: 45px;
+    }
     #gallery{
         height: 100vh;
-        width: 50vw;
+        width: fit-content;
         display: grid;
         align-content: center;
-        margin: 7%;
+        justify-self: center;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-
+        vertical-align: center;
 
         /* margin-top changes how far down the gallery goes so it doesnt cover about */
         margin-top: 300px;
@@ -393,9 +397,11 @@ color: purple;
     .container2{
       display: none;
 
-
     }
     .container3{
       display: none;
+    }
+    .mySlidesfade1 img{
+      width: 22.5rem;
     }
 }
