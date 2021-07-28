@@ -82,12 +82,14 @@ function showSlides3() {
 
 // Alistair Click thing
 
-function handleClick(element){
-  element.style.transform = "scale(1)";
-}
+// function handleClick(element){
+//   element.style.transform = "scale(1)";
+// }
 
 
-var image = doc.getElementsByClassName("g_img");
-image.addEventListener("ontouchend", function(){
-  image.style.transform = "scale(1)";
-});
+// var image = doc.getElementsByClassName("g_img");
+// image.addEventListener("ontouchend", function(){
+//   image.style.transform = "scale(1)";
+// });
+
+var

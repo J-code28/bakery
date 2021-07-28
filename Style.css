@@ -355,6 +355,8 @@ color: purple;
     }
     #Hannah{
         width: 18rem;
+        margin-left:14%;
+        
     }
     .mySlides img {
         width: 22.7rem;
@@ -403,6 +405,10 @@ color: purple;
       display: none;
     }
     .mySlidesfade1 img{
-      width: 22.5rem;
+      width: 97vw;
+    }
+    #img_p > img{
+      display: flex;
+      justify-self: center;
     }
 }
