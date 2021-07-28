@@ -357,7 +357,7 @@ color: purple;
         width: 18rem;
     }
     .mySlides img {
-        width: 22.7rem;
+        width: 23rem;
         display: block;
         margin: auto;
         border-radius: 20px;
@@ -380,7 +380,6 @@ color: purple;
         width: fit-content;
         display: grid;
         align-content: center;
-        justify-self: center;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         vertical-align: center;
         margin: 7%;
