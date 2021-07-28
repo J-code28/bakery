@@ -383,6 +383,7 @@ color: purple;
         justify-self: center;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         vertical-align: center;
+        margin: 7%;
 
         /* margin-top changes how far down the gallery goes so it doesnt cover about */
         margin-top: 300px;
