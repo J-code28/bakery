@@ -314,7 +314,7 @@ color: purple;
 #Contact{
     position: relative;
     margin-top: 200px;
-    
+
 bottom: 0px;
 
 
@@ -361,6 +361,13 @@ bottom: 0px;
         margin-left:14%;
 
     }
+
+
+    #con_details{
+        margin-top: 200px;
+    }
+
+
     .mySlides img {
         width: 22.7rem;
         display: block;
