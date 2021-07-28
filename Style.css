@@ -376,9 +376,9 @@ color: purple;
         width: 50vw;
         display: grid;
         align-content: center;
-        margin: 15px;
+        margin: auto;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: inherit;
+
 
         /* margin-top changes how far down the gallery goes so it doesnt cover about */
         margin-top: 300px;
