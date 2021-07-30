@@ -350,14 +350,14 @@ color: purple;
 /* RESPONSIVE */
 @media screen and (max-width: 500px) {
     .nav-link{
-        font-size: 3rem;
+        font-size: 2rem;
         margin: 0 1rem;
     }
     #Hannah{
         width: 18rem;
-        margin-left: 14%;
+        margin-left: 7%;
     }
-    .mySlides img {
+    .mySlidesfade1 img {
         width: 25.5rem;
         display: block;
         margin: auto;
