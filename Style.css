@@ -386,7 +386,7 @@ color: purple;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding-right: 80px;
         padding-top: 50px;
-        margin-left: 7%;
+        margin-left: 14%;
         /* margin-top changes how far down the gallery goes so it doesnt cover about */
         margin-top: 300px;
 
