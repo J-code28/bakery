@@ -393,7 +393,7 @@ color: purple;
         justify-self: center;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding-top: 50px;
-        padding-left: 15%;
+        padding-left: 12%;
         /* margin-top changes how far down the gallery goes so it doesnt cover about */
         margin-top: 300px;
 
