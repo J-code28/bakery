@@ -88,6 +88,7 @@ nav{
     shape-outside:circle(50%);
     shape-margin: 1rem;
     float: left;
+    margin-right: 90px;
 }
 #about_p {
     font-size: 1.8rem;
@@ -404,6 +405,8 @@ color: purple;
         font-family: 'Quicksand', sans-serif;
         padding-top: 280px;
     }
+
+
 
     .container2{
       display: none;
