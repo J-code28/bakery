@@ -360,7 +360,7 @@ color: purple;
 
     }
     .mySlidesfade1 img {
-        width: 25.5rem;
+        width: 22.5rem;
         display: block;
         margin: auto;
         /* margin-left: 7%; */
@@ -416,9 +416,7 @@ color: purple;
     .container3{
       display: none;
     }
-    .mySlidesfade1 img{
-      width: 22.5rem;
-    }
+
     #SlideSHOW{
       grid-template-columns: 1fr;
     }
