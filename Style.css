@@ -359,7 +359,7 @@ color: purple;
     .mySlides img {
         width: 20rem;
         display: block;
-        margin: auto;
+        margin-left: 7%;
         border-radius: 20px;
         border-color: black;
     }
