@@ -361,9 +361,9 @@ color: purple;
         margin: 0 1rem;
     }
     #Hannah{
-        width: 18rem;
+        width: 100%;
         margin:0;
-        margin-left: 15%;
+
     }
     .mySlidesfade1 img {
         width: 25.5rem;
@@ -389,7 +389,7 @@ color: purple;
     #Contact{
         position: relative;
         margin-top: 200px;
-        width: 99vw;
+        width: 100%;
 
 
     }
