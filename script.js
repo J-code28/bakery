@@ -84,6 +84,7 @@ function showSlides3() {
 
 function handleClick(element){
   element.style.transform = "scale(3)";
+
 }
 
 function dblClick(element){

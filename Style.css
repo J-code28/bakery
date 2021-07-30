@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
   }
 /* body */
  body{
-    background-color: #e2888f;
+    background-color: #fae7e0;
 }
 
     /* navigation  */
@@ -40,7 +40,7 @@ nav{
     grid-template-rows: 2;
 }
 #logo{
-    width: 15rem;
+    width: 20rem;
     border-radius: 50%;
 }
 #logoimg{
@@ -67,8 +67,8 @@ nav{
     font-size: 4rem;
 }
 .nav-link:hover{
-    color: purple ;
-    border-bottom: solid 1px purple;
+    color: white ;
+    border-bottom: solid 1px white;
 }
 
 /* about us */
@@ -384,7 +384,7 @@ color: purple;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding-right: 80px;
         padding-top: 50px;
-      
+
         /* margin-top changes how far down the gallery goes so it doesnt cover about */
         margin-top: 300px;
 
