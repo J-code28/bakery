@@ -319,8 +319,8 @@ color: purple;
 }
 
 #con_details{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: #e2888f;
     height: 40vh;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -357,7 +357,7 @@ color: purple;
         width: 18rem;
     }
     .mySlides img {
-        width: 19rem;
+        width: 20rem;
         display: block;
         margin: auto;
         border-radius: 20px;
@@ -384,7 +384,7 @@ color: purple;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding-right: 80px;
         padding-top: 50px;
-
+        margin-left: 7%;
         /* margin-top changes how far down the gallery goes so it doesnt cover about */
         margin-top: 300px;
 
