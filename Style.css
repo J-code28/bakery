@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
   }
 /* body */
  body{
-    background-color: #e2888f;
+    background-color: #fae7e0;
 }
 
     /* navigation  */
@@ -40,7 +40,7 @@ nav{
     grid-template-rows: 2;
 }
 #logo{
-    width: 15rem;
+    width: 18rem;
     border-radius: 50%;
 }
 #logoimg{
@@ -67,8 +67,8 @@ nav{
     font-size: 4rem;
 }
 .nav-link:hover{
-    color: purple ;
-    border-bottom: solid 1px purple;
+    color: white ;
+    border-bottom: solid 1px white;
 }
 
 /* about us */
@@ -313,24 +313,27 @@ color: purple;
 /* CONTACT */
 #Contact{
     position: relative;
-    margin-top: 1500px;
+    margin-top: 200px;
+
+bottom: 0px;
 
 
 }
 
 #con_details{
-    background-color: black;
-    color: white;
+    background-color: #f7e6ec;
+    color: #e2888f;
     height: 40vh;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
+    margin-top: 1400px;
 }
 
 #getInTouch{
     font-family: 'Quicksand', sans-serif;
     padding-top: 2rem;
+
 }
 #upper{
     grid-row: 1;
@@ -355,9 +358,16 @@ color: purple;
     }
     #Hannah{
         width: 18rem;
-        margin-left:14%;
-        
+        /* margin-left:14%; */
+
     }
+
+
+    #con_details{
+        margin-top: 200px;
+    }
+
+
     .mySlides img {
         width: 22.7rem;
         display: block;
