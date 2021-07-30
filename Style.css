@@ -350,16 +350,18 @@ color: purple;
 /* RESPONSIVE */
 @media screen and (max-width: 500px) {
     .nav-link{
-        font-size: 2rem;
+        font-size: 3rem;
         margin: 0 1rem;
     }
     #Hannah{
         width: 18rem;
+        margin-left: 14%;
     }
     .mySlides img {
-        width: 22rem;
+        width: 25.5rem;
         display: block;
         margin: auto;
+        margin-left: 18%;
         border-radius: 20px;
         border-color: black;
     }
