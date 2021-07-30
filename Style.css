@@ -356,13 +356,14 @@ color: purple;
     }
     #Hannah{
         width: 18rem;
-        margin-left: 7%;
+        margin:0;
+        margin-left: 15%;
     }
     .mySlidesfade1 img {
         width: 25.5rem;
         display: block;
         margin: auto;
-        margin-left: 7%;
+        /* margin-left: 7%; */
         border-radius: 20px;
         border-color: black;
     }
@@ -395,7 +396,7 @@ color: purple;
         justify-self: center;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding-top: 50px;
-        padding-left: 12%;
+        padding:0;
         /* margin-top changes how far down the gallery goes so it doesnt cover about */
         margin-top: 300px;
 
@@ -417,5 +418,8 @@ color: purple;
     }
     .mySlidesfade1 img{
       width: 22.5rem;
+    }
+    #SlideSHOW{
+      grid-template-columns: 1fr;
     }
 }
