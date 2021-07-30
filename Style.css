@@ -357,9 +357,9 @@ color: purple;
         width: 18rem;
     }
     .mySlides img {
-        width: 20rem;
+        width: 22rem;
         display: block;
-        margin-left: 7%;
+        margin: auto;
         border-radius: 20px;
         border-color: black;
     }
