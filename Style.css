@@ -377,6 +377,14 @@ color: purple;
     .a:hover{
       margin-left: 45px;
     }
+
+    #Contact{
+        position: relative;
+        margin-top: 200px;
+
+
+    }
+
     #gallery{
         height: 100vh;
         width: fit-content;
@@ -386,7 +394,7 @@ color: purple;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding-top: 50px;
         /* margin-top changes how far down the gallery goes so it doesnt cover about */
-        margin-top: 100px;
+        margin-top: 300px;
 
     }
     #about_p {
