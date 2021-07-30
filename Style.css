@@ -349,6 +349,12 @@ color: purple;
 
 
 /* RESPONSIVE */
+@media screen and (max-width: 366px){
+  .mySlidesfade1 img{
+    width: 21.5rem;
+  }
+}
+
 @media screen and (max-width: 500px) {
     .nav-link{
         font-size: 2rem;
