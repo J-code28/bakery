@@ -91,9 +91,9 @@ function handleClick(body){
 
 }
 
-function dblClick(element){
-  element.style.transform = "scale(1)";
-}
+// function dblClick(element){
+//   element.style.transform = "scale(1)";
+// }
 
 
 var image = doc.getElementsByClassName("g_img");
