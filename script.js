@@ -82,8 +82,12 @@ function showSlides3() {
 
 // Alistair Click thing
 
-function handleClick(element){
-  element.style.transform = "scale(3)";
+// function handleClick(element){
+//   getElementsByClassName("g_img").style.transform = "scale(3)";
+//
+// }
+function handleClick(body){
+  getElementsByClassName("g_img").style.transform = "scale(1)";
 
 }
 
