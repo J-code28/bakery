@@ -361,7 +361,7 @@ color: purple;
         width: 25.5rem;
         display: block;
         margin: auto;
-        margin-left: 18%;
+        /* margin-left: 18%; */
         border-radius: 20px;
         border-color: black;
     }
